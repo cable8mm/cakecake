@@ -1,48 +1,13 @@
-# CakePHP
+# cakecake
 
-[![Latest Stable Version](https://poser.pugx.org/cakephp/cakephp/v/stable.svg)](https://packagist.org/packages/cakephp/cakephp)
-[![License](https://poser.pugx.org/cakephp/cakephp/license.svg)](https://packagist.org/packages/cakephp/cakephp)
-[![Bake Status](https://secure.travis-ci.org/cakephp/cakephp.png?branch=master)](https://travis-ci.org/cakephp/cakephp)
-[![Code consistency](https://squizlabs.github.io/PHP_CodeSniffer/analysis/cakephp/cakephp/grade.svg)](https://squizlabs.github.io/PHP_CodeSniffer/analysis/cakephp/cakephp/)
+cakecake는 CakePHP 2.x를 기반으로 한 커맨드 방식의 CMS 개발 프레임워크입니다.
 
-CakePHP is a rapid development framework for PHP which uses commonly known design patterns like Active Record, Association Data Mapping, Front Controller and MVC.
-Our primary goal is to provide a structured framework that enables PHP users at all levels to rapidly develop robust web applications, without any loss to flexibility.
+CakePHP 2.x는 최신 패치 적용으로 PHP 5.x버전부터 7.x까지 지원하며, Bake라는 커맨드를 이용하여 수 많은 기능을 코드 없이 구현할 수 있게 만들어 졌습니다.
 
+cakecake는 그 기반 위에 메뉴, 인증 그리고 CSS를 개선해서 과거의 콘텐츠 관리 시스템을 개선하기 위해서 만들어 졌습니다.
 
-## Some Handy Links
+## cakecake 사용 시나리오
 
-[CakePHP](https://cakephp.org) - The rapid development PHP framework
-
-[CookBook](https://book.cakephp.org) - THE CakePHP user documentation; start learning here!
-
-[API](https://api.cakephp.org) - A reference to CakePHP's classes
-
-[Plugins](https://plugins.cakephp.org) - A repository of extensions to the framework
-
-[The Bakery](https://bakery.cakephp.org) - Tips, tutorials and articles
-
-[Community Center](https://community.cakephp.org) - A source for everything community related
-
-[Training](https://training.cakephp.org) - Join a live session and get skilled with the framework
-
-[CakeFest](https://cakefest.org) - Don't miss our annual CakePHP conference
-
-[Cake Software Foundation](https://cakefoundation.org) - Promoting development related to CakePHP
-
-
-## Get Support!
-
-[#cakephp](https://webchat.freenode.net/?channels=#cakephp) on irc.freenode.net - Come chat with us, we have cake
-
-[Google Group](https://groups.google.com/group/cake-php) - Community mailing list and forum
-
-[GitHub Issues](https://github.com/cakephp/cakephp/issues) - Got issues? Please tell us!
-
-[Roadmaps](https://github.com/cakephp/cakephp/wiki#roadmaps) - Want to contribute? Get involved!
-
-
-## Contributing
-
-[CONTRIBUTING.md](CONTRIBUTING.md) - Quick pointers for contributing to the CakePHP project
-
-[CookBook "Contributing" Section (2.x)](https://book.cakephp.org/2.0/en/contributing.html) [(3.x)](https://book.cakephp.org/3.0/en/contributing.html) - Version-specific details about contributing to the project
+그누보드 혹은 제로보드로 만들어 졌으나, 패치를 적용하지 못할 정도로 오래된 홈페이지의 콘텐츠 관리 시스템이 필요할 경우
+워드프레스를 커스터마이징 했지만, 별도의 관리 도구가 필요할 경우
+자체 제작한 시스템에 새로운 관리 도구가 필요할 경우
